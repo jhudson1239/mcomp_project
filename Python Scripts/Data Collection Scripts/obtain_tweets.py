@@ -3,11 +3,11 @@ import re
 import csv
 import time
 
-consumer_key= 'PXhXlHgbNzbcqOdtRN2z20YSK'
-consumer_secret= 'OOUzo1KarUKvsbxlu0cFIkHyQgDEiqgZhpSCu1cUqafvmgtnZu'
+consumer_key= ''
+consumer_secret= ''
 
-access_token='921145622417346561-kQKaQHegZzboeaChbWOAGo321JR7TZb'
-access_token_secret='aufYGhC1nTkLMFrMFdDM2fqgxgItjwOOJv659ErEoA9jN'
+access_token=''
+access_token_secret=''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)

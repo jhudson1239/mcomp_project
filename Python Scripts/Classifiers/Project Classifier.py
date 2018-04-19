@@ -62,5 +62,3 @@ def compute_data (testfile, finalFile):
             writer.writerow(row)
 
 compute_data('google_tweets_processed.csv', 'google_sentiment.csv')
-compute_data('amazon_tweets_processed.csv', 'amazon_sentiment.csv')
-compute_data('microsoft_tweets_processed.csv', 'microsoft_sentiment.csv')

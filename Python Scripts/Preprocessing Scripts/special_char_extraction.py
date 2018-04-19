@@ -65,4 +65,5 @@ def compute (file, outFile):
         for tweet in tweets:
             writer.writerow(tweet)      
 
-#This sciprt takes 
+compute('','')
+
